@@ -59,7 +59,7 @@ const Fullscreennav = () => {
                 </div>
             </div>
             <div ref={fullNavLinksRef} className='relative'>
-                <div className='navlink flex w-full justify-between p-1 items-start'>
+                <div className='navlink flex w-full justify-between lg:p-1 p-3 items-start'>
                     <div className=''>
                         <div className='w-36'>
                             <svg className='w-full ' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 44">
@@ -69,80 +69,81 @@ const Fullscreennav = () => {
                     </div>
                     <div onClick={() => {
                         setnavOpen(false)
-                    }} className='h-30 w-30 relative cursor-pointer'>
-                        <div className='h-40 -rotate-45 origin-top absolute w-0.5 bg-[#D3FD50]'></div>
-                        <div className='h-40 right-0 rotate-45 origin-top absolute w-0.5 bg-[#D3FD50]'></div>
+                    }} className='lg:h-30 lg:w-30 h-20 w-20 relative cursor-pointer'>
+                        <div className='lg:h-40 h-28 -rotate-45 origin-top absolute w-0.5 bg-[#D3FD50]'></div>
+                        <div className='lg:h-40 h-28 right-0 rotate-45 origin-top absolute w-0.5 bg-[#D3FD50]'></div>
                     </div>
                 </div>
-                <div id='alllinks' className='py-1'>
+                <div id='alllinks' className='lg:py-1 py-30'>
                     <div id='link' className='link origin-top relative  border-y-2 border-white'>
-                        <h1 className='font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>Projects</h1>
+                        <h1 className='font-[font2] lg:text-[8vw] text-4xl text-center uppercase lg:leading-[0.8] lg:pt-10 pt-3'>Project</h1>
                         <div className='moveLink absolute flex top-0 text-black bg-[#D3FD50]'>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                         </div>
                     </div>
                     <div id='link' className='link origin-top relative  border-y-2 border-white'>
-                        <h1 className='font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>Projects</h1>
+                        <h1 className='font-[font2] lg:text-[8vw] text-4xl text-center uppercase lg:leading-[0.8] lg:pt-10 pt-3'>Agence</h1>
                         <div className='moveLink absolute flex top-0 text-black bg-[#D3FD50]'>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                         </div>
                     </div>
                     <div id='link' className='link origin-top relative  border-y-2 border-white'>
-                        <h1 className='font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>Projects</h1>
+                        <h1 className='font-[font2] lg:text-[8vw] text-4xl text-center uppercase lg:leading-[0.8] lg:pt-10 pt-3'>Contact</h1>
                         <div className='moveLink absolute flex top-0 text-black bg-[#D3FD50]'>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                         </div>
                     </div>
                     <div id='link' className='link origin-top relative  border-y-2 border-white'>
-                        <h1 className='font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>Projects</h1>
+                        <h1 className='font-[font2] lg:text-[8vw] text-4xl text-center uppercase lg:leading-[0.8] lg:pt-10 pt-3'>Blogs</h1>
                         <div className='moveLink absolute flex top-0 text-black bg-[#D3FD50]'>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                             <div className='movex flex items-center'>
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
-                                <h2 className='whitespace-nowrap font-[font2] text-[8vw] text-center uppercase leading-[0.8] pt-10'>SEE EVERYTHING</h2>
-                                <img className='h-36 rounded-full shrink-0 w-96 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b' />
+                                <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl text-center uppercase lg:leading-[0.8]   lg:pt-10'>SEE EVERYTHING</h2>
+                                <img className='lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover' src='https://k72.ca/images/caseStudies/iA_BRAND/Thumbnail.png?w=640&h=290&s=755b635c06d126151d64017fa1042a7c' />
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
